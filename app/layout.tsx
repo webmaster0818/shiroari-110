@@ -14,6 +14,9 @@ const notoSansJP = Noto_Sans_JP({
 export const metadata: Metadata = {
   metadataBase: new URL("https://shiroari-110-deploy.pages.dev"),
   alternates: { canonical: "/" },
+  twitter: {
+    card: "summary_large_image",
+  },
   title: {
     default: "シロアリ110番｜シロアリ駆除業者の比較・口コミランキング",
     template: "%s｜シロアリ110番",
