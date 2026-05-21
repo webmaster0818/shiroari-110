@@ -47,6 +47,11 @@ export default function RootLayout({
         <SiteHeader />
         <main className="min-h-screen">
           {children}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: "{\"@context\":\"https://schema.org\",\"@type\":\"Organization\",\"name\":\"シロアリ110番\",\"url\":\"https://shiroari-110-deploy.pages.dev/\",\"logo\":\"https://shiroari-110-deploy.pages.dev/favicon.ico\",\"publisher\":{\"@type\":\"Organization\",\"name\":\"株式会社MediaX\",\"url\":\"https://mediax.biz\"},\"sameAs\":[\"https://shiroari-110-deploy.pages.dev/about/\"]}" }}
+        />
+        
         </main>
         <SiteFooter />
       </body>
